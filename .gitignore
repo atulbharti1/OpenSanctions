@@ -1,6 +1,14 @@
+# Raw data - too large for GitHub
 data/raw/
-*.csv
-*.json
-__pycache__/
-.venv/
+
+# Output data - keep folder but ignore files inside
+outputs/*
+!outputs/.gitkeep
+
+# Mac system file
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
